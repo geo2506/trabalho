@@ -1,0 +1,10 @@
+<script>
+    // 1. Define a função que será executada quando o clique ocorrer.
+    function mostrarAlerta() {
+        alert("Você clicou no botão!");
+    }
+
+    // 2. Encontra o botão pelo seu ID ("meuBotao") e adiciona um "ouvinte de evento" (event listener).
+    // Quando o evento "click" acontece, a função mostrarAlerta() é chamada.
+    document.getElementById("meuBotao").addEventListener("click", mostrarAlerta);
+</script>
