@@ -1,0 +1,25 @@
+<style>
+        /* Define a cor de fundo de toda a página (o corpo do documento) como azul claro */
+        body {
+            background-color: lightblue;
+        }
+
+        /* Define a cor do título principal (assumindo que seja <h1>) como vermelho */
+        h1 {
+            color: red;
+        }
+
+        /* Define o tamanho da fonte de todos os parágrafos (tag <p>) para 18 pixels */
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Exemplo de como o HTML ficaria com esse CSS aplicado -->
+    <h1>Este Título Ficará Vermelho</h1>
+    <p>Este parágrafo terá o tamanho de fonte de 18px e o fundo da página estará azul claro.</p>
+
+</body>
+</html>
