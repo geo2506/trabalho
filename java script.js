@@ -5,6 +5,6 @@
     // Adiciona um "ouvinte de evento" (event listener) para o clique
     meuBotao.addEventListener('click', function() {
         // Exibe o alerta com o texto especificado
-        alert('Você clicou no botão!');
+        alert('Você clicou no botão!')
     });
 </script>
