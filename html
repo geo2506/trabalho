@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Simples com Interatividade</title>
+    
+    <!-- 12. Código CSS embutido no cabeçalho (head) -->
+    <style>
+        body {
+            /* Fundo da página azul claro */
+            background-color: lightblue; 
+            font-family: sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            /* Título vermelho */
+            color: red; 
+        }
+
+        p {
+            /* Texto do parágrafo com tamanho de 18px */
+            font-size: 18px; 
+            color: #333;
+        }
+
+        img {
+            /* Apenas para garantir que a imagem não seja muito grande */
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+             margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Código HTML para estruturar a página -->
+    <h1>Este é o Título Principal</h1>
+
+    <p>Este é um parágrafo de texto com o tamanho de 18 pixels, conforme solicitado. O fundo desta página deve estar azul claro e o título acima está vermelho.</p>
+
+    <!-- Exemplo de imagem (substitua o src por um link de imagem real se quiser testar) -->
+    <!-- Usei um placeholder da internet para o exemplo -->
+    <img src="picsum.photos" alt="Uma imagem de exemplo aleatória">
+
+    <!-- Botão com um ID para ser selecionado pelo JavaScript -->
+    <button id="meuBotao">Clique em Mim!</button>
+
+    <!-- 13. Código JavaScript embutido no final do corpo (body) -->
+    <script>
+        // Função que será chamada quando o botão for clicado
+        function mostrarAlerta() {
+            // O texto do alerta deve ser: “Você clicou no botão!”
+            alert("Você clicou no botão!");
+        }
+
+        // Adiciona um "ouvinte de evento" (event listener) ao botão com o ID "meuBotao"
+        document.getElementById("meuBotao").addEventListener("click", mostrarAlerta);
+    </script>
+
+</body>
+</html>
